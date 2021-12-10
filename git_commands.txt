@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin remote_url
+git push origin master
+heroku logs --tail
+
+git push -f heroku master ---> Note: We are using an '-f' to force the push.
+
+
